@@ -19,6 +19,8 @@ public class cc001_CO92JUDG {
 			for (int i = 0; i<n ; i++) {
 				int x = Integer.parseInt(astr[i]);
 				a[i] = x;
+				
+				
 				a_max = (x>a_max)?x:a_max;
 				a_sum = a_sum + x;
 			}
